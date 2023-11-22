@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 export default function Footer() {
   return (
     <div className='font-mono flex flex-col justify-center gap-1 py-2 bg-[#0a192f] text-[#8892b0]'>
-      <div className="flex gap-3 justify-center sm:hidden">
+      <div className="flex gap-8 justify-center sm:hidden">
       <a href="https://www.linkedin.com/in/vinicius-josé-648148202/" target='_blank'>
           <Icon
             width={20}
