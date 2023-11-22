@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function SocialMediaComponent(){
   return (
-    <div className='fixed flex flex-col gap-6 top-[500px] left-20'>
+    <div className='hidden md:flex fixed flex-col gap-6 top-[500px] left-20'>
         <a href="https://www.linkedin.com/in/vinicius-josé-648148202/" target='_blank'>
           <Icon
             width={20}
