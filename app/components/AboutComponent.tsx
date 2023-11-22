@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function AboutComponent() {
   return (
-    <div className='w-full bg-[#E8F1F2] flex flex-col items-center py-10'>
+    <div className='w-full bg-[#0a192f] flex flex-col items-center py-10'>
         <h2 className="text-gray-800 text-2xl font-bold">Sobre</h2>
         <div className='flex rounded-lg border-gray-800 sm:pt-4 sm:pl-4 sm:pb-0 sm:pr-0 px-12'>
           <div className='flex flex-col-reverse items-center sm:items-start sm:flex-col gap-3'>
