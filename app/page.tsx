@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-        <Navbar/>
+        {/* <Navbar/> */}
         <Header/>
         <MyKnowAges/>
         <AboutComponent/>
