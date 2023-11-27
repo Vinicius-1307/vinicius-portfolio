@@ -27,7 +27,7 @@ export default function Home() {
           <div
             className="cursor-pointer z-50"
           >
-            <span className="font-mono">Vinicius José</span>
+            <a href='#header' className="font-mono sm:text-2xl text-[#64ffda]">Vinicius J. DEV</a>
           </div>
           <Icon
             icon="ep:close-bold"
@@ -148,18 +148,18 @@ export default function Home() {
           <h1 className='font-mono text-[#64ffda] text-lg md:text-lg  text-start'>Olá, meu nome é</h1>
           <h2 className="font-sans font-bold text-4xl md:text-7xl text-[#ccd6f6]">Vinicius José.</h2>
           <h2 className="font-sans font-bold text-3xl md:text-7xl text-[#8892b0]">Sou Desenvolvedor Web.</h2>
-          <p className="max-w-[500px] text-[#8892b0]">Sou desenvolvedor de sistemas, atualmente como estagiário. Atualmente meu foco está volado para o back-end, onde eu realmente me encontro.</p>
+          <p className="max-w-[500px] text-[#8892b0]">Sou desenvolvedor de sistemas, atualmente como estagiário. Atualmente meu foco está voltado para o back-end, onde eu realmente me encontro.</p>
         </div>
       </section>
       {/* FIM */}
 
       {/* SOBRE */}
-      <section id='sobre' className="flex w-full bg-[#0a192f] items-center sm:flex-row gap-10">
-        <div className='p-10 md:pl-72 flex flex-col'>
+      <section id='sobre' className="flex w-full bg-[#0a192f] items-start sm:flex-row gap-10">
+        <div className='md:pl-72 flex flex-col'>
           <h2 className="font-bold mb-10 text-[#ccd6f6] text-3xl"><span className="font-mono text-[#64ffda]">02.</span> Sobre</h2>
           <p className="max-w-[540px]">Olá! Meu nome é Vinicius. Entrei para o mercado da programação em Junho de 2023. Atualmente estou como estagiário em <span className="text-[#64ffda]">Desenvolvimento Web</span>. Na empresa onde trabalho realizo integrações com APIs externas e internas. Sou responsável por desenvolver códigos no back-end e integrar com o front-end. Aqui abaixo estão alguns dos meus conhecimentos:</p>
         </div>
-        <Image className="hidden shadow-xl shadow-[#64ffda] sm:block rounded-lg" src={"/img/vinicius-profile.png"} alt="Imagem Vinicius" width={300} height={50} />
+        <Image className="hidden shadow-xl shadow-[#64ffda] sm:block rounded-lg" src={"/img/vinicius-profile.png"} alt="Imagem Vinicius" width={300} height={0} />
       </section>
       {/* FIM */}
 
