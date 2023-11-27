@@ -178,7 +178,7 @@ export default function Home() {
       {/* FIM */}
 
       {/* FOOTER */}
-      <section id='footer' className='font-mono flex flex-col justify-center gap-1 py-2 bg-[#0a192f] text-[#8892b0]'>
+      <section id='footer' className='font-mono flex flex-col justify-center gap-1 py-2 pl-4 bg-[#0a192f] text-[#8892b0]'>
         <div className='flex items-center gap-8'>
           <form className='w-full bg-[#0a192f] pl-5 md:pl-72 flex items-start gap-10 flex-col rounded-xl pr-5 pb-5 sm:min-w-[450px] max-w-[800px]'>
           <h2 className="font-bold mb-10 text-[#ccd6f6] text-3xl"><span className="font-mono text-[#64ffda]">04.</span> Contato</h2>
@@ -189,7 +189,7 @@ export default function Home() {
               <input
                 id="name"
                 placeholder="Cristiano Ronaldo"
-                className="rounded px-3 py-2 bg-transparent sm:w-96 border-b-2 border-[#64ffda] placeholder:text-gray-600"
+                className="rounded px-3 py-2 bg-transparent w-[300px] sm:w-96 border-b-2 border-[#64ffda] placeholder:text-gray-600"
                 required
               />
             </fieldset>
@@ -200,7 +200,7 @@ export default function Home() {
                 <input
                   id="email"
                   type="email"
-                  className="rounded px-3 py-2 bg-transparent sm:w-96 border-b-2 border-[#64ffda]placeholder:text-gray-600"
+                  className="rounded px-3 py-2 bg-transparent w-[300px] sm:w-96 border-b-2 border-[#64ffda]placeholder:text-gray-600"
                   placeholder="mail@mail.com"
                   required
                 />
@@ -213,7 +213,7 @@ export default function Home() {
                   name="message"
                   id="message"
                   required
-                  className="rounded px-3 py-2 bg-transparent sm:w-96 border-b-2 border-[#64ffda] focus:outline-none focus:border-teal-300 resize-none placeholder:text-gray-600"
+                  className="rounded px-3 py-2 bg-transparent w-[300px] sm:w-96 border-b-2 border-[#64ffda] focus:outline-none focus:border-teal-300 resize-none placeholder:text-gray-600"
                   placeholder="Olá, gostei muito do seu portfolio..."
                 />
               </fieldset>
