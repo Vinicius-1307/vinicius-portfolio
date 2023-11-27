@@ -5,7 +5,7 @@ import KnowledgeList from './components/KnowledgeList';
 import Image from 'next/image';
 import { knowages } from './config/knowages';
 
-export default function Home({activeIndex = null}) {
+export default function Home() {
 
     const [openMenu, setOpenMenu] = useState(false);
 
@@ -65,52 +65,24 @@ export default function Home({activeIndex = null}) {
               className="hover:text-[#64ffda] transition-all flex flex-col"
             >
               <h2 className="cursor-pointer font-mono"><span className="font-mono text-[#64ffda]">01.</span>Home</h2>
-              <span
-                className={`p-[1px] rounded transition-all duration-300 ${
-                  activeIndex == 0
-                    ? "bg-[#5eead4] w-full"
-                    : "bg-transparent w-0"
-                }`}
-              ></span>
             </a>
             <a
               href='#sobre'
               className="hover:text-[#64ffda] transition-all flex flex-col"
             >
               <h2 className="cursor-pointer font-mono"><span className="font-mono text-[#64ffda]">02.</span>Sobre</h2>
-              <span
-                className={`p-[1px] rounded transition-all duration-300 ${
-                  activeIndex == 1
-                    ? "bg-[#5eead4] w-full"
-                    : "bg-transparent w-0"
-                }`}
-              ></span>
             </a>
             <a
               href='#tecnologies'
               className="hover:text-[#64ffda] transition-all flex flex-col"
             >
               <h2 className="cursor-pointer font-mono"><span className="font-mono text-[#64ffda]">03.</span>Tecnologias</h2>
-              <span
-                className={`p-[1px] rounded transition-all duration-300 ${
-                  activeIndex == 2
-                    ? "bg-[#5eead4] w-full"
-                    : "bg-transparent w-0"
-                }`}
-              ></span>
             </a>
             <a
               href='#footer'
               className="hover:text-[#64ffda] flex flex-col"
             >
               <h2 className="cursor-pointer font-mono"><span className="font-mono text-[#64ffda]">04.</span>Contato</h2>
-              <span
-                className={`p-[1px] rounded transition-all duration-300 ${
-                  activeIndex == 3
-                    ? "bg-[#5eead4] w-full"
-                    : "bg-transparent w-0"
-                }`}
-              ></span>
             </a>
 
             <li className="hover:scale-105 transition-all flex flex-col">
