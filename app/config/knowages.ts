@@ -54,6 +54,13 @@ knowages.push({
 });
 
 knowages.push({
+    title: "Vue.js",
+    icon: "devicon:vuejs",
+    link: "https://vuejs.org/",
+    type: "framework"
+});
+
+knowages.push({
     title: "Laravel",
     icon: "devicon:laravel",
     link: "https://laravel.com/",
